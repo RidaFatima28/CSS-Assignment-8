@@ -1,0 +1,245 @@
+@media (max-width: 800px) {
+    .menu i  {
+        display: block;
+         padding: 10px;
+        color: #111a2d;
+        cursor: pointer;
+        font-size: 22px;
+    }
+
+    .small-btn{
+        display:none;
+    }
+
+    .links {
+        position: absolute;
+        top: 72px;
+        right: 0;
+        left: 0;
+        display: none;
+        align-items: stretch;
+        flex-direction: column;
+        gap: 0;
+        padding: 10px 5%;
+        background: white;
+        box-shadow: 0 8px 12px #17233818;
+    }
+
+    .links a {
+        padding: 12px 0;
+        border-bottom: 1px solid #eee;
+    }
+    .links .btn {
+        margin: 10px 0;
+        padding: 12px;
+        color: white;
+        text-align: center;
+    }
+
+    .links .btn:hover {
+        color: white;
+    }
+
+    .menu i:hover ~.links {
+        display: flex;
+    }
+
+    .booking-box {
+        align-items: stretch;
+        flex-direction: column;
+    }
+
+    .booking-form input,
+    .booking-form select {
+        flex: 1 1 40%;
+    }
+
+    .about {
+        gap: 30px;
+    }
+
+    .hero-row {
+        min-height: 480px;
+        gap: 30px;
+    }
+
+    .hero-text {
+        padding: 45px 0;
+    }
+
+    .hero-pic {
+        height: 320px;
+        margin-right: 10px;
+    }
+
+    .pic-top {
+        right: -15px;
+    }
+
+    .pic-bottom {
+        left: -15px;
+    }
+
+    .cards {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .why-row,
+    .review-row,
+    .faq-row {
+        grid-template-columns: 1fr;
+        gap: 30px;
+    }
+}
+
+@media (max-width: 550px) {
+    .wrap {
+        width: 92%;
+    }
+
+    .top-row{
+        display:flex;
+        flex-direction:column;
+        gap:5px
+    }
+
+    .email,
+    .hours {
+        display: none;
+    }
+
+    .nav-row {
+        min-height: 65px;
+    }
+
+    .links {
+        top: 65px;
+    }
+
+    .hero {
+        min-height: 0;
+    }
+
+    .hero-row {
+        min-height: 0;
+        grid-template-columns: 1fr;
+        gap: 5px;
+        padding-top: 40px;
+        padding-bottom: 30px;
+    }
+
+    .hero-text {
+        padding: 0 0 15px;
+    }
+
+    .hero h1 {
+        font-size: 42px;
+    }
+
+    .booking-box {
+        padding: 20px;
+    }
+
+    .pic-box {
+        gap: 8px;
+        padding: 10px 12px;
+    }
+
+    .pic-box > i {
+        width: 35px;
+        height: 35px;
+        font-size: 16px;
+    }
+
+    .pic-top {
+        top: 12px;
+        right: -12px;
+    }
+
+    .pic-bottom {
+        bottom: 12px;
+        left: -12px;
+    }
+
+    .booking h2,
+    .title h2 {
+        font-size: 24px;
+    }
+
+    .booking-form {
+        flex-direction: column;
+    }
+
+    .booking-form input,
+    .booking-form select,
+    .booking-form button {
+        width: 100%;
+    }
+
+    .section {
+        padding: 55px 0;
+    }
+
+    .about {
+        grid-template-columns: 1fr;
+    }
+
+    .about img {
+        height: 300px;
+    }
+
+    .about h2 {
+        font-size: 29px;
+    }
+
+    .cards {
+        grid-template-columns: 1fr;
+    }
+
+    .why,
+    .reviews {
+        padding: 50px 0;
+    }
+
+    .why h2,
+    .reviews h2,
+    .faq h2 {
+        font-size: 27px;
+    }
+
+    .why-list {
+        grid-template-columns: 1fr;
+        gap: 10px;
+    }
+
+    .quote {
+        padding: 22px;
+    }
+
+    .faq-row {
+        gap: 25px;
+    }
+
+    .faq-item h3 {
+        font-size: 13px;
+    }
+
+    .callout-row {
+        align-items: flex-start;
+        flex-direction: column;
+    }
+
+    .callout h2 {
+        font-size: 24px;
+    }
+
+    .footer-row {
+        grid-template-columns: 1fr 1fr;
+        gap: 25px 15px;
+    }
+
+    .footer-row > div:first-child {
+        grid-column: 1 / -1;
+    }
+   
+}
