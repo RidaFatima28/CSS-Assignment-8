@@ -40,7 +40,7 @@
         color: white;
     }
 
-    .menu i:hover ~.links {
+    .menu i:hover +.links {
         display: flex;
     }
 
